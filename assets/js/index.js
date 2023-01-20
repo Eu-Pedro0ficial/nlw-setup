@@ -15,8 +15,8 @@ function add(){
     alert("Dia já incluso");
     return;
   }
-  alert("Dia adicionado com sucesso");
   nlwSetup.addDay(today);
+  alert("Dia adicionado com sucesso");
 }
 
 const data = JSON.parse(localStorage.getItem("NLWSetup@habits")) || {};
